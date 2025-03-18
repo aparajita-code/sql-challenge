@@ -1,48 +1,54 @@
 # sql-challenge
+# Employee Database Analysis
+This repository contains a comprehensive analysis of employee-related data using structured database techniques. The project focuses on data modeling, engineering, and analytical queries to gain insights into employee and departmental relationships.
 
-This Challenge is divided into three parts: data modeling, data engineering, and data analysis.
+# 📊 Project Description
+Key components of this project include:
 
+***Data Modeling:***
 
+Entity Relationship Diagram (ERD) and table schemas created to define database structure.
 
---Requirements
+***Data Engineering:***
 
-**Data Modeling**
-Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables. To create the sketch, feel free to use a tool like QuickDBDLinks to an external site..
+Proper column definitions with correct data types and value lengths.
 
+Implementation of Primary Keys, Foreign Keys, and NOT NULL constraints to ensure data integrity.
 
---Data Modeling (10 points)
+Data Analysis:
 
---Entity Relationship Diagram is included or table schemas provided for all tables (10 points)
+SQL queries to retrieve critical insights such as employee details, department relationships, and frequency counts of last names.
 
+***🔍 Data Analysis Queries***
+List employee details such as employee number, last name, first name, sex, and salary.
 
-**Data Engineering**
-Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
+Retrieve employees hired in 1986, including their first and last name, and hire date.
 
-Remember to specify the data types, primary keys, foreign keys, and other constraints.
+Display department managers with department details and employee names.
 
-For the primary keys, verify that the column is unique. Otherwise, create a composite keyLinks to an external site., which takes two primary keys to uniquely identify a row.
+Show each employee's department details with their corresponding department number and name.
 
-Be sure to create the tables in the correct order to handle the foreign keys.
+Identify employees named Hercules whose last name starts with "B."
 
-Import each CSV file into its corresponding SQL table.
+List employees in the Sales department.
 
---Data Engineering (70 points)
-All required columns are defined for each table (10 points)
-Columns are set to the correct data type (10 points)
-Primary Keys set for each table (10 points)
-Correctly references related tables (10 points)
-Tables are correctly related using Foreign Keys (10 points)
-Correctly uses NOT NULL condition on necessary columns (10 points)
-Accurately defines value length for columns (10 points)
+Retrieve employees in Sales and Development departments with their department names.
 
+Count the frequency of employee last names in descending order.
 
+# 🚀 Features
+Robust database design ensuring relationships between tables.
 
-**Data Analysis (20 points)**
-List the employee number, last name, first name, sex, and salary of each employee (2 points)
-List the first name, last name, and hire date for the employees who were hired in 1986 (2 points)
-List the manager of each department along with their department number, department name, employee number, last name, and first name (2 points)
-List the department number for each employee along with that employee’s employee number, last name, first name, and department name (2 points)
-List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B (2 points)
-List each employee in the Sales department, including their employee number, last name, and first name (2 points)
-List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name (4 points)
-List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name) (4 points)
+Clean and efficient SQL scripts for queries.
+
+Highlights core database concepts such as normalization, constraints, and data relationships.
+
+# How to Use
+Clone the repository.
+
+Set up the database using the provided schema definitions and ERD.
+
+Run the SQL scripts to populate data and execute analytical queries.
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
